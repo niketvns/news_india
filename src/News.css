@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-div {
+    width: 100%;
+    height: 100vh;
+}
+
+.cent-div {
+    width: 100%;
+}
+
+.heading {
+    position: sticky;
+    top: 0px;
+    background-color: rgb(38, 1, 124);
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+    margin-bottom: 20px;
+}
+
+.all-cards {
+    width: 100%;
+    height: 92.5%;
+    margin: auto;
+    background-color: white;
+    overflow-y: auto;
+}
+
+.card {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ind_card {
+    width: 400px;
+    height: 500px;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 20px 40px 20px;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 5px 5px 25px -5px black;
+    border-radius: 10px;
+}
+
+
+.title {
+    font-family: 'Source Serif Pro', serif;
+}
+
+.title:hover {
+    text-decoration: underline;
+    cursor: default;
+}
+
+.time {
+    font-size: 15px;
+    font-weight: 500;
+    font-style: italic;
+    color: green;
+    margin: 5px 0px;
+}
+
+img {
+    width: 60%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.content {
+    font-size: 20px;
+    font-weight: 500;
+    height: 90px;
+    overflow: hidden;
+}
+
+.content-height {
+    overflow: hidden;
+    max-height: 90px;
+    min-height: 40px;
+}
+
+.url {
+    text-decoration: none;
+    font-size: 15px;
+    color: blue;
+    font-weight: 1000;
+    font-style: oblique;
+    text-decoration: underline;
+}
+
+
+.blink {
+    animation: animate 2s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+
+}
+
+@media only screen and (max-width:960px) {
+    .cent-div {
+        width: 486px;
+        margin: auto;
+    }
+
+    .all-cards {
+        padding: 0px;
+    }
+}
+
+@media only screen and (max-width:1440px) and (min-width:961px) {
+    .cent-div {
+        width: 970px;
+        margin: auto;
+    }
+
+    .all-cards {
+        padding: 0px;
+    }
+}
+
+
+@media only screen and (max-width:1940px) and (min-width:1600px) {
+    .cent-div {
+        width: 1500px;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width:1600px) and (min-width:1440px) {
+    .cent-div {
+        width: 1500px;
+        margin: auto;
+    }
+
+    .all-cards {
+        padding-left: 35px;
+    }
+}
