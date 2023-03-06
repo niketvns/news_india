@@ -23,6 +23,7 @@
     text-align: center;
     padding: 10px 0px;
     margin-bottom: 20px;
+    z-index: 1;
 }
 
 .all-cards {
@@ -52,9 +53,14 @@
     border-radius: 10px;
 }
 
+.ind_card:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+}
 
 .title {
     font-family: 'Source Serif Pro', serif;
+    font-size: 130%;
 }
 
 .title:hover {

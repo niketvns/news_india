@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/News-India/static/css/main.bb443f56.css",
+    "main.js": "/News-India/static/js/main.e5e4cf80.js",
+    "index.html": "/News-India/index.html",
+    "main.bb443f56.css.map": "/News-India/static/css/main.bb443f56.css.map",
+    "main.e5e4cf80.js.map": "/News-India/static/js/main.e5e4cf80.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb443f56.css",
+    "static/js/main.e5e4cf80.js"
+  ]
+}

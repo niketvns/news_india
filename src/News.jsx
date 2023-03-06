@@ -23,7 +23,6 @@ const News = () => {
                         <h1><span className="blink">Top Breaking News</span></h1>
                     </div>
                     <div className="all-cards">
-
                         {
                             news.map((curElem, ind) => {
                                 return (
